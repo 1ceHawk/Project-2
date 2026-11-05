@@ -76,7 +76,8 @@ nav a:hover {
 
 /* Style 2 */
 .resume h1 {
-  color: darkgreen;
+  color: red;
+  font-weight: bold;
   text-align: center;
 }
 
@@ -118,7 +119,7 @@ nav a:hover {
 
 /* Style 3 */
 .personal {
-  background-color: lavender;
+  background-color: white;
   padding: 2rem;
 }
 
@@ -135,12 +136,14 @@ nav a:hover {
 
 /* Style 6 */
 .personal a {
-  color: darkred;
+  color: black;
+  font-weight: bold;
 }
 
 /* Style 7 */
 .personal a:hover {
   color: navy;
+  
 }
 
 
