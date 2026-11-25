@@ -153,3 +153,32 @@ footer {
   background-color: #003366;
   color: white;
 }
+
+@media screen and (min-width: 768px) {
+  body {
+    font-size: 18px;
+  }
+
+  nav ul {
+    display: flex;
+  }
+
+  h1 {
+    color: navy;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  body {
+    max-width: 1200px;
+    margin: auto;
+  }
+
+  nav ul {
+    justify-content: space-around;
+  }
+
+  h1 {
+    font-size: 3rem;
+  }
+}
